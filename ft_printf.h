@@ -16,7 +16,6 @@ void    ft_handle_pointers(va_list args, int *countchar);
 void    ft_handle_integer(va_list args, int *countchar);
 void    ft_handle_string(va_list args, int *countchar);
 void    ft_putnbr_base(unsigned long nbr, char *base, int *countchar);
-void    ft_putstr(char *str);
 size_t  ft_strlen(char *str);
 int	    ft_printf(const char *format, ...);
 

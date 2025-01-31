@@ -12,13 +12,6 @@ size_t  ft_strlen(char *str)
     return (i);
 }
 
-void    ft_putstr(char *str)
-{
-    if (!str)
-        return ;
-    write(1, str, ft_strlen(str));
-}
-
 void   ft_putnbr_base(unsigned long nbr, char *base, int *countchar)
 {
     size_t  baselen;
@@ -34,13 +27,3 @@ void   ft_putnbr_base(unsigned long nbr, char *base, int *countchar)
     (*countchar)++;
 
 }
-
-/*char    *ft_itoa_base(int n)
-{
-    return (ft_putnbr_base(n, "0123456789"));
-}
-
-char    *ft_utoa_base(unsigned int n)
-{
-    return (ft_putnbr_base(n, "0123456789"));
-}*/
